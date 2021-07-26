@@ -30,3 +30,9 @@ a {
   text-decoration: none;
   color: var(--color-dark);
 }
+
+.content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

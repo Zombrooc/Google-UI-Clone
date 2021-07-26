@@ -1,9 +1,6 @@
 .navbar {
-  width: 100%;
+  width: 100vw;
   height: 60px;
-
-  border: 2px solid var(--color-dark);
-  /* margin-left: 5500px; */
 }
 
 .menu {
@@ -19,4 +16,39 @@
 
 .menu .menuItem a:hover {
   text-decoration: underline;
+}
+
+div.container {
+  width: 100vw; /* View width = Largura total de tela do usuário */
+  height: 100vh; /* View Height = Altura total de tela do usuário */
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+
+  flex-direction: column; /* Deixa os elemntos do Flexbox em colunas */
+}
+
+.container .logo img {
+  width: 30%;
+}
+
+div.container input {
+  padding: 20px;
+  border-radius: 30px; /* Deixa os cantos arredondados */
+  height: 50px;
+  border: none;
+  border: 2px solid var(--color-text-light);
+  width: 500px;
+  transition: all .5s; /* Anima qualquer propriedade do elemento */
+}
+
+div.container input:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); /* Aplica Sombra no elemento */
+}
+
+
+div.container input:focus {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
