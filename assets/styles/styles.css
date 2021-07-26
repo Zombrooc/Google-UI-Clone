@@ -1,6 +1,8 @@
 .navbar {
   width: 100vw;
   height: 60px;
+  position: absolute;
+  top: 0;
 }
 
 .menu {
@@ -22,11 +24,7 @@ div.container {
   width: 100vw; /* View width = Largura total de tela do usuário */
   height: 100vh; /* View Height = Altura total de tela do usuário */
 
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-
+  position: relative;
   flex-direction: column; /* Deixa os elemntos do Flexbox em colunas */
 }
 
