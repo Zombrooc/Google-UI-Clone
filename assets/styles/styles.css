@@ -3,6 +3,7 @@
   height: 60px;
 
   border: 2px solid var(--color-dark);
+  /* margin-left: 5500px; */
 }
 
 .menu {
@@ -10,6 +11,10 @@
   display: flex;
   justify-content: flex-end; /* Faz com que as opções do meu menu permaneçam a direita */
   align-items: center;
+}
+
+.menu .menuItem a {
+  padding: 15px;
 }
 
 .menu .menuItem a:hover {
