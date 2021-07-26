@@ -6,7 +6,7 @@
 .menu {
   height: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end; /* Faz com que as opções do meu menu permaneçam a direita */
   align-items: center;
 }
 
