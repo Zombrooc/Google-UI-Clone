@@ -1,36 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="./assets/images/googleLogo.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="assets/styles/globalStyles.css" />
-    <link rel="stylesheet" href="assets/styles/styles.css" />
-    <title>Google</title>
+    <link rel="shortcut icon" href="img/googleLogo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style/globalStyles.css" />
+    <link rel="stylesheet" href="style/styles.css" />
+    <title>Clone-google</title>
   </head>
   <body>
-    
+    <nav class="navbar">
+      <div class="menu">
+        <div class="menuItem">
+          <a href="">Gmail</a>
+        </div>
+        <div class="menuItem">
+          <a href="">Imagens</a>
+        </div>
+      </div>
+    </nav>
 
     <div class="container content-center">
-      <nav class="navbar">
-        <div class="menu">
-          <div class="menuItem">
-            <a href="https://gmail.com"> Gmail </a>
-          </div>
-          <div class="menuItem">
-            <a href="#"> Imagens </a>
-          </div>
-        </div>
-      </nav>
       <div class="logo content-center">
-        <img src="assets/images/Google_Logo.svg" alt="Google Search" />
+        <img src="img/Google_Logo.svg" alt="google search" />
       </div>
-      <input type="text" />
+      <div class="busca" id="busca">
+        <span class="material-icons">
+          <img src="img/lupa1.png" alt="" />
+        </span>
+        <input type="text" class="input" id="input"/>
+        <span class="material-icons-keyboard"
+          ><a href="#"
+            ><img
+              src="img/keyboard_alt_black_24dp.svg"
+              alt="keyboard google" /></a
+        ></span>
+        <span class="material-icons">
+          <a href="#"
+            ><img src="img/1x/baseline_mic_black_24dp.png" alt="mic google"
+          /></a>
+        </span>
+      </div>
+      <div class="search-button">
+        <button id="search">Pesquisa Google</button>
+        <button>Sinto-me com sorte</button>
+      </div>
     </div>
+    <script src="scripts.js"></script>
   </body>
 </html>
