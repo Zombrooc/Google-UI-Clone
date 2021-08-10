@@ -6,7 +6,6 @@
     --color-gray-light: #f8f9fa;
     --color-text-light: #bac1c7;
     --color-dark: #222;
-    
 }
 
 * {
@@ -37,9 +36,6 @@ a {
     text-decoration: none;
     color: var(--color-dark);
 }
-
-
-
 
 .content-center {
     display: flex;
