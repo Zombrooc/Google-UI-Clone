@@ -1,16 +1,11 @@
 const myInput = document.getElementById('input');
-
-console.log(myInput);
+const div_busca = document.getElementById('busca');
 
 myInput.addEventListener('focus', () => {
-  const div_busca = document.getElementById('busca');
-
   div_busca.classList.add('shadow');
 });
 
 myInput.addEventListener('focusout', () => {
-  const div_busca = document.getElementById('busca');
-
   div_busca.classList.remove('shadow');
 });
 
